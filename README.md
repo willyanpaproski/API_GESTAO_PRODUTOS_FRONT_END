@@ -1,12 +1,9 @@
-# React + Vite
+# Como rodar o front-end (Depende do projeto da API, segue o link do repositório: https://github.com/willyanpaproski/API_GESTAO_PRODUTOS_NODEJS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse front-end é feito em Vite + React. Segue os passos para rodar:
 
-Currently, two official plugins are available:
+1. Crie o arquivo .env, seguindo as variáveis do arquivo .env.example. Nesse caso, terá somente a variável da porta da API, onde a aplicação irá consultar os dados. Então, crie o arquivo com o nome ".env" e preencha a variável
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Instale os pacotes utilizados pela aplicação rodando o comando "npm install" na raíz do projeto. Lembrando que para isso funcionar, é necessário ter o npm instalado na máquina.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Rode o comando "npm run dev" na raíz do projeto, e com isso, o front-end estará rodando. Lembrando que para os dados serem exibidos, é necessário ter a API rodando
