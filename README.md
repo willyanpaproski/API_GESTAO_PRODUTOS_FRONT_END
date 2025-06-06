@@ -1,9 +1,43 @@
-# Como rodar o front-end (Depende do projeto da API, segue o link do repositório: https://github.com/willyanpaproski/API_GESTAO_PRODUTOS_NODEJS)
+🌐 Front-end da Aplicação de Gestão de Produtos
 
-Esse front-end é feito em Vite + React. Segue os passos para rodar:
+Este projeto é o front-end da aplicação de gestão de produtos, desenvolvido com Vite + React.
+Ele depende da API disponível no seguinte repositório:
+🔗 https://github.com/willyanpaproski/API_GESTAO_PRODUTOS_NODEJS
 
-1. Crie o arquivo .env, seguindo as variáveis do arquivo .env.example. Nesse caso, terá somente a variável da porta da API, onde a aplicação irá consultar os dados. Então, crie o arquivo com o nome ".env" e preencha a variável
+✅ Requisitos
 
-2. Instale os pacotes utilizados pela aplicação rodando o comando "npm install" na raíz do projeto. Lembrando que para isso funcionar, é necessário ter o npm instalado na máquina.
+Certifique-se de ter os seguintes itens instalados antes de iniciar:
 
-3. Rode o comando "npm run dev" na raíz do projeto, e com isso, o front-end estará rodando. Lembrando que para os dados serem exibidos, é necessário ter a API rodando
+    Node.js (versão 18 ou superior recomendada)
+
+    npm (gerenciador de pacotes do Node.js)
+
+    A API da aplicação em execução
+
+🚀 Como rodar o projeto
+
+    Clone o repositório (caso ainda não tenha feito):
+
+git clone https://github.com/willyanpaproski/API_GESTAO_PRODUTOS_FRONT_END.git
+
+cd API_GESTAO_PRODUTOS_FRONT_END
+
+Crie o arquivo .env na raiz do projeto, com base no .env.example, e configure a seguinte variável:
+
+    VITE_API_URL: URL da API (por exemplo: http://localhost:3000)
+
+Instale as dependências do projeto:
+
+npm install
+
+Inicie o servidor de desenvolvimento:
+
+    npm run dev
+
+    A aplicação será iniciada e normalmente ficará disponível em http://localhost:5173.
+
+⚠️ Importante
+
+    Para que os dados sejam exibidos corretamente, a API precisa estar rodando.
+
+    Verifique se a URL configurada na variável VITE_API_URL está correta e acessível.
