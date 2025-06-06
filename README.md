@@ -1,12 +1,43 @@
-# React + Vite
+🌐 Front-end da Aplicação de Gestão de Produtos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é o front-end da aplicação de gestão de produtos, desenvolvido com Vite + React.
+Ele depende da API disponível no seguinte repositório:
+🔗 https://github.com/willyanpaproski/API_GESTAO_PRODUTOS_NODEJS
 
-Currently, two official plugins are available:
+✅ Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Certifique-se de ter os seguintes itens instalados antes de iniciar:
 
-## Expanding the ESLint configuration
+    Node.js (versão 18 ou superior recomendada)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    npm (gerenciador de pacotes do Node.js)
+
+    A API da aplicação em execução
+
+🚀 Como rodar o projeto
+
+Clone o repositório (caso ainda não tenha feito):
+
+    git clone https://github.com/willyanpaproski/API_GESTAO_PRODUTOS_FRONT_END.git
+
+    cd API_GESTAO_PRODUTOS_FRONT_END
+
+Crie o arquivo .env na raiz do projeto, com base no .env.example, e configure a seguinte variável:
+
+    VITE_API_URL: URL da API (por exemplo: http://localhost:3000)
+
+Instale as dependências do projeto:
+
+    npm install
+
+Inicie o servidor de desenvolvimento:
+
+    npm run dev
+
+A aplicação será iniciada e normalmente ficará disponível em http://localhost:5173 (Observe o retorno no console para ter certeza em que porta a aplicação foi inicializada).
+
+⚠️ Importante
+
+    Para que os dados sejam exibidos corretamente, a API precisa estar rodando.
+
+    Verifique se a URL configurada na variável VITE_API_URL está correta e acessível.
