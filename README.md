@@ -28,13 +28,13 @@ Crie o arquivo .env na raiz do projeto, com base no .env.example, e configure a 
 
 Instale as dependências do projeto:
 
-npm install
+    npm install
 
 Inicie o servidor de desenvolvimento:
 
     npm run dev
 
-    A aplicação será iniciada e normalmente ficará disponível em http://localhost:5173.
+A aplicação será iniciada e normalmente ficará disponível em http://localhost:5173 (Observe o retorno no console para ter certeza em que porta a aplicação foi inicializada).
 
 ⚠️ Importante
 
