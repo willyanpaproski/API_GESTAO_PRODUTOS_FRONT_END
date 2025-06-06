@@ -19,7 +19,7 @@ export default function RegisterPage() {
             await api.post('/usuario', form)
             .then(async () => {
                 const res = await api.post('/auth/login', form);
-                login(res.data.token);
+                login(res.data.token, res.data.userName);
                 navigate('/dashboard');
             })
             .catch((err) => {
