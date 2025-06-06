@@ -16,11 +16,11 @@ Certifique-se de ter os seguintes itens instalados antes de iniciar:
 
 🚀 Como rodar o projeto
 
-    Clone o repositório (caso ainda não tenha feito):
+Clone o repositório (caso ainda não tenha feito):
 
-git clone https://github.com/willyanpaproski/API_GESTAO_PRODUTOS_FRONT_END.git
+    git clone https://github.com/willyanpaproski/API_GESTAO_PRODUTOS_FRONT_END.git
 
-cd API_GESTAO_PRODUTOS_FRONT_END
+    cd API_GESTAO_PRODUTOS_FRONT_END
 
 Crie o arquivo .env na raiz do projeto, com base no .env.example, e configure a seguinte variável:
 
